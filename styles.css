@@ -55,9 +55,18 @@ p {
 
 /* Navigation */
 header {
-  background-color: #E3170A;
+  background-color: white;
   padding: 10px 0;
-  display: flex;
+  display: block;
+  height: 60px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  background-color: ;
 }
 
 .head-cont {
@@ -68,41 +77,17 @@ header {
   float: right;
 }
 
-.nav-content a {
-  text-decoration: none;
-  color: black;
-}
-
-.nav-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 10px 0;
-  text-decoration: none;
-  background-color: #E3170A;
-  float: right;
-}
-
-.nav-content a {
-  background-color: #E16036;
-  border: #E16036 solid 1rem;  
-  border-radius: 10%;
-}
-
-.nav-content a:hover {
-  color: white;
-  border: #333333 solid 1rem;
-  background-color: #333333;
-  border-radius: 20%;
-}
-
 .nav-content ul {
-  display: flex;
-  list-style: none;
   justify-content: space-around;
-  gap: 2rem;
-  padding-right: 2rem;
+  padding: 0;
 }
+
+.nav-content li {
+  text-decoration: none;
+  list-style: none;
+}
+
+
 
 /* Body */
 
