@@ -155,7 +155,7 @@ header {
   padding: 2rem 0;
   text-align: center;
   line-break: auto;
-  height: 40rem;
+  height: auto;
   width: 100%;
   color: black;
   background-color: #f0edd7cc;
